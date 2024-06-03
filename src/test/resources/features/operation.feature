@@ -23,3 +23,4 @@ Feature: Calculator Operations
       | divide     | 1                      | 0.000001               | 1000000.0                  |
       | divide     | 1                      | 1.0E-308               | 1.0E308                    |
       | divide     | 1                      | 0                      |Error: Cannot divide by zero|
+      | multiply   | 1                      | -0                     | 0.0                          |
