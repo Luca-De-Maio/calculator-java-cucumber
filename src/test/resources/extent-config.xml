@@ -1,0 +1,9 @@
+<extent>
+    <reporter>
+        <spark-config>
+            <documentTitle>Automation Report</documentTitle>
+            <reportName>Calculator Test Report</reportName>
+            <theme>dark</theme>
+        </spark-config>
+    </reporter>
+</extent>

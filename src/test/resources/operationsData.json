@@ -1,0 +1,20 @@
+[
+  {"operation": "add", "num1": "10", "num2": "0.5", "expected": "10.5"},
+  {"operation": "add", "num1": "0.1", "num2": "0.2", "expected": "0.3"},
+  {"operation": "add", "num1": "0000010", "num2": "0000020", "expected": "30"},
+  {"operation": "add", "num1": "1.0E308", "num2": "1.0E308", "expected": "Infinity"},
+  {"operation": "add", "num1": "9999999999999999", "num2": "1", "expected": "10000000000000000"},
+  {"operation": "add", "num1": "1.0E-308", "num2": "1.0E-308", "expected": "2.0E-308"},
+  {"operation": "add", "num1": "0.0000000000000000001", "num2": "0.20", "expected": "0.2000000000000000001"},
+
+  {"operation": "subtract", "num1": "10", "num2": "-5.5", "expected": "15.5"},
+  {"operation": "subtract", "num1": "-1.0E308", "num2": "1.0E308", "expected": "-Infinity"},
+  {"operation": "subtract", "num1": "-1.0E-308", "num2": "1.0E-308", "expected": "-2.0E-308"},
+
+  {"operation": "multiply", "num1": "1.123456789", "num2": "1.987654321", "expected": "2.234567900089"},
+  {"operation": "multiply", "num1": "1.0E154", "num2": "1.0E154", "expected": "Infinity"},
+  {"operation": "multiply", "num1": "0", "num2": "1.0E308", "expected": "0"},
+
+  {"operation": "divide", "num1": "1", "num2": "0.000001", "expected": "1000000"},
+  {"operation": "divide", "num1": "1", "num2": "1.0E-308", "expected": "Infinity"}
+]

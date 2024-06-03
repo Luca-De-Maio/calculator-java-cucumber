@@ -65,9 +65,9 @@ docker run --rm public.ecr.aws/l4q9w4c5/loanpro-calculator-cli <operation> <num1
 Where operation can be add, subtract, multiply, or divide, and num1 and num2 are the numbers to operate on.
 
 ## Work products
-- [Test plan](https://choosealicense.com/licenses/mit/)
-- [Test cases](https://choosealicense.com/licenses/mit/)
-- [Bug report](https://choosealicense.com/licenses/mit/) 
+- [Test plan](https://docs.google.com/document/d/1Cbwof-qzrdvLDeZuXoDjPG9qPhooBRh2O-sTyKztfj0/edit?usp=sharing)
+- [Test cases](https://docs.google.com/spreadsheets/d/15W2Syy8yjiqYKOwxRq-0q2na9aIc-AJW/edit?usp=sharing&ouid=111220243694001188714&rtpof=true&sd=true)
+- [Bug report](https://docs.google.com/document/d/1nCpTbPVTvI9ZW47k4rDPmQDL3wrgQUbKf-m4XGOWyaw/edit?usp=sharing) 
 
 ## Contributing
 If you wish to contribute to the project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
